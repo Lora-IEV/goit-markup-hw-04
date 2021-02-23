@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 3</title>
+    <title>Homework 4</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,16 +19,24 @@
                 <a class="logo" href="index.html"><span class="web">Web</span><span class="studio-logo">Studio</span></a>
                 <!-- Header menu -->
                 <ul class="header-nav list">
-                    <li class="nav-item"><a href="index.html" class="link ">Студия</a></li>
-                    <li class="nav-item"><a href="portfolio.html" class="link current">Портфолио</a></li>
+                    <li class="nav-item"><a href="index.html" class="link current">Студия</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="link">Портфолио</a></li>
                     <li class="nav-item"><a href="#" class="link">Контакты</a></li>
                 </ul>
             </nav>
             <!-- Contacts -->
             <ul class="header-address list">
-                <li class="address-item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li class="address-item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-            </ul>
+                <li class="address-item"><a href="mailto:info@devstudio.com" class="link">
+                    <svg class="icon-envelope" width="16" height="12">
+                        <use href="images/symbols.svg#icon-envelope"></use>
+                    </svg>
+                     info@devstudio.com</a></li>
+                   <li class="address-item"><a href="tel:+380961111111" class="link">
+                        <svg class="icon-smartphone" width="10" height="16">
+                            <use href="images/symbols.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11</a></li>
+             </ul>
         </div>
     </header>
     <main>
@@ -133,14 +141,49 @@
     </main>
     <footer>
         <div class="container footer-container">
-            <a class="footer-logo" href="index.html"><span class="web">Web</span><span class="logo-studio">Studio</span></a>
-            <address class="footer-box">
-                <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="footer-contacts">
-                    <li class="footer-contacts-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer-contacts-item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <div class="foot-cont">
+                <a class="footer-logo" href="index.html"><span class="web">Web</span><span class="logo-studio">Studio</span></a>
+                <address class="footer-box">
+                    <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="footer-contacts">
+                        <li class="footer-contacts-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="footer-contacts-item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="connect-container">
+                <p class="join-title">Присоединяйтесь</p>
+                <ul class="list join">
+                    <li class="item">
+                        <a href="" class="connect-box">
+                            <svg class="connect-icon">
+                                <use href="./images/symbols.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="connect-box">
+                            <svg class="connect-icon">
+                                <use href="./images/symbols.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="connect-box">
+                            <svg class="connect-icon">
+                                <use href="./images/symbols.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="connect-box">
+                            <svg class="connect-icon">
+                                <use href="./images/symbols.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 
