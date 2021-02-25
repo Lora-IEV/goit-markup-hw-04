@@ -684,6 +684,10 @@ footer {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
+.join .item + .item {
+  margin-left: 10px;
+}
 /*== All Projects ==*/
 
 .all-progects {
